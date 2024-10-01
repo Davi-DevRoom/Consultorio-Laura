@@ -1,0 +1,161 @@
+.home{
+    width: 100vw;
+    height: 100%;
+    background: var(--linerar-gradiente);
+}
+
+.container-home {
+    padding: 8.75rem;
+}
+
+.container-home .bg-geometric{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 400px;
+    height: 556px;
+}
+
+.content-home{
+    display: flex;
+    gap: 12.5rem;
+}
+
+.box-home{
+    position: relative;
+    z-index: 10;
+}
+
+.box-home p{
+    font-family: var(--descript-regular);
+    font-size: var(--font-20px);
+}
+
+.box-home .title-home{
+    font-family: var(--title-bold);
+    font-size: var(--font-48px);
+    width: 32.25rem;
+    margin-top: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.box-home h3{
+    font-family: var(--descript-regular);
+    font-size: var(--font-18px);
+    width: 28.1875rem;
+    margin-bottom: 3rem;
+}
+
+.box-home h3 span{
+    font-weight: bold;
+}
+
+.box-home a{
+    border-radius: 5px;
+}
+
+.content-home .foto img{
+    margin-top: -9px;
+    width: 100%;
+}
+
+/* Section sobre servicos (como posso ajudar você)*/
+.sobre-servicos div{
+    font-family: var(--title-bold);
+    font-size: var(--font-32px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-servicos h3{
+    font-family: var(--title-bold);
+    font-size: var(--font-32px);
+}
+
+.sobre-servicos h3 span{
+    font-family: var(--title-medium);
+}
+
+.container-serv{
+    padding: 3.75rem 0;
+}
+
+.container-itens{
+    width: 90vw;
+    display: flex;flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.content-serv{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-title h3{
+    font-family: var(--descript-medium);
+    font-size: var(--font-24px);
+}
+
+.box-descript p{
+    font-family: var(--descript-regular);
+    font-size: var(--font-18px);
+    text-align: center;
+}
+
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 450px){
+    html{
+        font-size: 55%;
+    }
+
+    .container-home{
+        padding: 10rem 2rem;
+        
+    }
+
+    .content-home{
+        flex-wrap: wrap;
+        gap: 11rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-home .btn{
+        padding: 0.75rem  1.8rem;
+    }
+
+    .container-home .bg-geometric{
+        width: 200px;
+        top: -5rem;
+        left: -5rem;
+    }
+
+    .container-home .foto{
+        width: 70%;
+    }
+
+    /* Section sobre servicos (como posso ajudar você) */
+    .content-serv{
+        width: 150px;
+    }
+
+    .box-icon img{
+        width: 70%;
+    }
+
+}
+
+

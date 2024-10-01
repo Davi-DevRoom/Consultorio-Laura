@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    -webkit-text-size-adjust:100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: var(--color-white);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+a, li{
+    list-style: none;
+    cursor: pointer;
+}
+
+img{
+    border-style: none;
+}
+
+.btn{
+    padding: 24px 60px;
+    background-color: var(--color-btn);
+    color: var(--color-white);
+    font-family: var(--descript-regular);
+    font-size: var(--font-20px);
+}
+
+.heading{
+    font-family: var(--title-bold);
+    font-size: var(--font-32px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

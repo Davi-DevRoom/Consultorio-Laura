@@ -1,0 +1,10 @@
+:root{
+    /* Color background*/
+    --linerar-gradiente: linear-gradient(to bottom,  #FFB5BA, #F2CFD7);
+
+    /* Color mains*/
+    --color-btn: #006270;
+    --color-white: #F1F7F6;
+    --color-main: #FFB5BA;
+    --color-black-font: #181818;
+}

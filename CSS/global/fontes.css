@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'montserrat-regular';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../Aquivos/fonts/Montserrat-Regular.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../Aquivos/fonts/Montserrat-Medium.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../Aquivos/fonts/Montserrat-Bold.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'outfit-regular';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../Aquivos/fonts/Outfit-Regular.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'outfit-medium';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../Aquivos/fonts/Outfit-Medium.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'outfit-bold';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../Aquivos/fonts/Outfit-Bold.ttf') format('woff');
+}
+
+:root{
+    --title-regular: 'montserrat-regular';
+    --title-medium: 'montserrat-medium';
+    --title-bold: 'montserrat-bold';
+
+    --descript-regular: 'outfit-regular';
+    --descript-medium: 'outfit-medium';
+    --descript-bold: 'outfit-bold';
+
+    --font-48px: 3rem;
+    --font-32px: 2rem;
+    --font-24px: 1.5rem;
+    --font-20px: 1.25rem;
+    --font-18px: 1.125rem;
+    --font-16px: 1rem;
+    --font-14px: 0.875rem;
+    --font-12px: 0.75rem;
+    --font-10px: 0.625rem;
+    
+}
