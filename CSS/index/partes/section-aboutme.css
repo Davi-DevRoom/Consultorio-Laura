@@ -1,0 +1,49 @@
+.about-me{
+    margin-top: 3.75rem;
+    flex-wrap: wrap;
+    
+}
+
+.container-about-me{
+    display: flex;
+    gap: 15rem;
+    
+}
+
+.foto-about{
+    position: relative;
+    left: -2rem;
+    z-index: 10;
+}
+
+.deco-circle{
+    position: relative;
+    right: 3.5rem;
+    bottom: 31rem;
+}
+
+.content-about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 30rem;
+}
+
+.content-about-me h2{
+    margin-bottom: 2rem;
+}
+
+.block-content h3{
+    font-family: var(--title-bold);
+    font-size: var(--font-18px);
+    color: var(--color-black-font);
+    margin-bottom: 1.25rem;
+}
+
+.block-content p{
+    font-family: var(--descript-regular);
+    font-size: var(--font-14px);
+    color: var(--color-black-font);
+    margin-bottom: 1.5rem;
+}
