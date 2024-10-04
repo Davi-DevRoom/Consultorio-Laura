@@ -2,10 +2,12 @@
     position: fixed;
     z-index: 100;
     width: 100vw;
-    margin-top: 1.25rem;
+    padding-top: 1.25rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: var(--color-main);
+    box-shadow: 0 .5rem 8rem rgba(0, 0, 0, 0.1);
 }
 
 .navbar .logo{
@@ -13,7 +15,7 @@
     font-size: var(--font-32px);
     color: var(--color-black-font);
     position: relative;
-    left: -4,375rem;
+    left: -4rem;
 }
 
 .nav-list{
@@ -37,15 +39,16 @@
     font-size: var(--font-20px);
     border-radius: 5px;
 }
+
 .menu-mobile{
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 0.3rem;
 }
 
 .menu-mobile .line{
-    width: 25px;
-    height: 3px;
+    width: 1.562rem;
+    height: 0.1875rem;
     background: var(--color-btn);
 }
 

@@ -8,17 +8,17 @@
     padding: 8.75rem;
 }
 
+.content-home{
+    display: flex;
+    gap: 12.5rem;
+}
+
 .container-home .bg-geometric{
     position: absolute;
     top: 150px;
     left: 0;
     width: 400px;
     height: 556px;
-}
-
-.content-home{
-    display: flex;
-    gap: 12.5rem;
 }
 
 .box-home{
@@ -88,7 +88,8 @@
 
 .container-itens{
     width: 90vw;
-    display: flex;flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 5rem;
@@ -122,13 +123,8 @@
 }
 
 @media (max-width: 450px){
-    html{
-        font-size: 55%;
-    }
-
     .container-home{
         padding: 10rem 2rem;
-        
     }
 
     .content-home{

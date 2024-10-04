@@ -1,13 +1,11 @@
 .about-me{
     margin-top: 3.75rem;
-    flex-wrap: wrap;
-    
 }
 
 .container-about-me{
     display: flex;
-    gap: 15rem;
-    
+    gap: 12.5rem;
+    flex-wrap: wrap;
 }
 
 .foto-about{
@@ -30,6 +28,17 @@
     width: 30rem;
 }
 
+.content-about-me::before{
+    content: '';
+    position: relative;
+    width: 20rem;
+    height: 1px;
+    background: var(--color-main);
+    transform: rotate(90deg);
+    top: 16rem;
+    right: 13rem;
+}
+
 .content-about-me h2{
     margin-bottom: 2rem;
 }
@@ -46,4 +55,32 @@
     font-size: var(--font-14px);
     color: var(--color-black-font);
     margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1340px){
+    
+    .container-about-me{
+        
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        flex-wrap: nowrap;
+    }
+    
+    .image-about-me{
+        margin-right: 11rem;
+    }
+
+}
+
+@media (max-width: 991px){
+    .container-about-me{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 450px){
+    
 }
