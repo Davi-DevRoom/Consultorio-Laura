@@ -1,7 +1,7 @@
 .contato{
     background: var(--linerar-gradiente);
     height: 100%;
-    margin-top: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 .container-endereco{
@@ -92,26 +92,43 @@
     width: 600px;
 }
 
-.faq-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: var(--color-main);
-}
 
-.faq-box dt{
-    font-family: var(--title-medium);
-    font-size: var(--font-18px);
+.faq{
+    background: var(--color-main);
+}  
+
+.faq-quest{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: var(--color-main);
     padding: 1.25rem 2.5rem;
+    
 }
 
-.faq-box dd{
+.faq-quest h3{
+    font-family: var(--title-medium);
+    font-size: var(--font-18px);
+}
+
+.faq-resp p{
     font-family: var(--descript-regular);
     font-size: var(--font-14px);
     display: flex;
     align-items: center;
     padding: 0 2.5rem;
+}
+
+.faq-resp{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.faq-resp p{
+    padding: 1rem;
+
+}
+
+.faq.active .faq-resp{
+    max-height: 400px;
 }
