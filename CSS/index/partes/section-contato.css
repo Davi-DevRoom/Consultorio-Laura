@@ -1,0 +1,117 @@
+.contato{
+    background: var(--linerar-gradiente);
+    height: 100%;
+    margin-top: 2.5rem;
+}
+
+.container-endereco{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0;
+    gap: 14.6875rem;
+}
+
+.content-endereco{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-endereco h2{
+    font-family: var(--title-bold);
+    font-size: var(--font-32px);
+}
+
+.content-endereco h4{
+    font-family: var(--title-regular);
+    font-size: var(--font-14px);
+    margin-top: 0.5rem;
+}
+
+.content-endereco h4 span{
+    font-family: var(--title-bold);
+    font-size: var(--font-14px);
+}
+
+.content-endereco ul{
+    font-family: var(--descript-regular);
+    font-size: var(--font-16px);
+    margin: 1.5rem 0;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content-endereco ul li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.content-endereco a{
+    text-align: center;
+}
+
+/* Maps*/
+.maps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 4rem 0;
+}
+
+/* conatiner faq*/
+
+.container-faq{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7.0625rem;
+}
+
+.content-faq h2{
+    font-family: var(--title-bold);
+    font-size: var(--font-32px);
+}
+
+.content-faq h4{
+    font-family: var(--descript-medium);
+    font-size: var(--font-16px);
+}
+
+.content-faq h5{
+    font-family: var(--descript-regular);
+    font-size: var(--font-12px);
+}
+
+.box-faq{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 600px;
+}
+
+.faq-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color-main);
+}
+
+.faq-box dt{
+    font-family: var(--title-medium);
+    font-size: var(--font-18px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem;
+}
+
+.faq-box dd{
+    font-family: var(--descript-regular);
+    font-size: var(--font-14px);
+    display: flex;
+    align-items: center;
+    padding: 0 2.5rem;
+}

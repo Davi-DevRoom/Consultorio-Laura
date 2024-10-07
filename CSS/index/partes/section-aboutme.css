@@ -26,6 +26,7 @@
     align-items: start;
     justify-content: center;
     width: 30rem;
+    position:relative;
 }
 
 .content-about-me::before{
@@ -37,6 +38,15 @@
     transform: rotate(90deg);
     top: 16rem;
     right: 13rem;
+}
+/* BG bauhaus*/
+.content-about-me img{
+    position:absolute;
+    z-index: -1;
+    top: 0rem;
+    left: 12.5rem;
+    width: 475px;
+    
 }
 
 .content-about-me h2{
