@@ -114,7 +114,17 @@
     text-align: center;
 }
 
-@media (max-width: 991px){
+@media (max-width: 1024px){
+    .content-home{
+        flex-wrap: wrap;
+        gap: 15rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-itens{
+        gap: 1rem;
+    }
 
 }
 

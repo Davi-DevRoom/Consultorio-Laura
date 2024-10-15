@@ -53,6 +53,13 @@
 }
 
 @media (max-width: 991px){
+    .nav-list{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: flex;
+    }
 
 }
 
@@ -61,7 +68,10 @@
 }
 
 @media (max-width: 450px){
-    
+    .navbar{
+        height: 5rem;
+    }
+
     .nav-list{
         display: none;
     }
