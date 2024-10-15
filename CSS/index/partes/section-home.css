@@ -117,29 +117,44 @@
 @media (max-width: 1024px){
     .content-home{
         flex-wrap: wrap;
-        gap: 15rem;
+        gap: 8rem;
         justify-content: center;
         align-items: center;
+        margin-top: 5rem;   
+    }
+
+    .content-home .box-home{
+        left: 3rem;
     }
 
     .container-itens{
         gap: 1rem;
     }
 
+    /*sobre serviços*/
+    .sobre-servicos{
+        margin-top: -5rem;
+    }
 }
 
-@media (max-width: 768px){
+@media (max-width: 834px){
+    .content-home{
+        gap: 10rem;  
+    }
 
+    .content-serv{
+        width: 324px;
+    }
 }
 
-@media (max-width: 450px){
+@media (max-width: 480px){
     .container-home{
         padding: 10rem 2rem;
     }
 
     .content-home{
         flex-wrap: wrap;
-        gap: 11rem;
+        gap: 5rem;
         justify-content: center;
         align-items: center;
     }
@@ -148,10 +163,15 @@
         padding: 0.75rem  1.8rem;
     }
 
+    .box-home{
+        margin-left: -3rem;
+        margin-top: -4rem;
+    }
+
     .container-home .bg-geometric{
         width: 200px;
         top: -5rem;
-        left: -5rem;
+        left: 0rem;
     }
 
     .container-home .foto{

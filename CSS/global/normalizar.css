@@ -46,17 +46,17 @@ img{
 }
 
 
-@media (max-width: 991px){
-    
+@media (max-width: 1024px){
+  
 }
 
-@media (max-width: 768px){
-    
+@media (max-width: 834px){
+   
 }
 
 @media (max-width: 450px){
     html{
-        font-size: 55%;
+        font-size: 62.5%;
     }
 }
 

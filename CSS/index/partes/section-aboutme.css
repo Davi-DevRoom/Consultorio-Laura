@@ -71,29 +71,115 @@
     margin-bottom: 1.5rem;
 }
 
-@media (max-width: 1340px){
-    
+@media (max-width: 1024px){
     .container-about-me{
         align-items: center;
         justify-content: center;
-        gap: 0;
-        flex-wrap: nowrap;
-    }
-    
-    .image-about-me{
-        margin-right: 11rem;
-    }
-
-}
-
-@media (max-width: 991px){
-    .container-about-me{
-        flex-direction: column-reverse;
+        gap: 5rem;
+        flex-direction: column;
         flex-wrap: wrap;
     }
     
+    .image-about-me{
+        margin-top: -2rem;
+        margin-left: -10rem;
+    }
+
+    .content-about-me img{
+        left: 17rem;
+    }
+
+    .deco-line{
+        width: 375px;
+    }
+
+    .foto-about{
+        width: 450px;
+    }
+
+    .deco-circle{
+        width: 50px;
+        bottom: 39rem;
+    }
+}    
+    
+
+@media (max-width: 834px){
+    .container-about-me{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-about-me{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-left: -2rem;
+    }
+
+    .content-about-me img{
+        left: 11rem;
+    }
+
+    .deco-line{
+        margin-left: -10rem;
+        width: 375px;
+    }
+
+    .foto-about{
+        width: 350px;
+    }
+
+    .deco-circle{
+        width: 50px;
+        bottom: 16rem;
+    }
+   
+    .deco-line{
+        width: 300px;
+    }
+    
 }
 
-@media (max-width: 450px){
+@media (max-width: 480px){
+    .image-about-me{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .deco-line{
+        position: relative;
+        width: 100px;
+        left: 5rem;
+    }
+
+    .foto-about{
+        width: 260px;
+    }
+
+    .deco-circle{
+        width: 34px;
+    }
     
+    .content-about-me img{
+        display: none;
+    }
+    
+    .block-content h3{
+        font-family: var(--title-bold);
+        font-size: var(--font-24px);
+        color: var(--color-black-font);
+        margin-bottom: 1.25rem;
+    }
+    
+    .block-content p{
+        font-family: var(--descript-regular);
+        font-size: var(--font-18px);
+        color: var(--color-black-font);
+        margin-bottom: 1.5rem;
+    }
 }

@@ -18,6 +18,15 @@
     gap: 2.5rem;
 }
 
+.content-servicos-2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
 .box-servicos{
     display: flex;
     flex-direction: column;
@@ -45,3 +54,13 @@
     list-style: disc;
 }
 
+
+@media (max-width: 480px){
+    .img-foto img{
+        width: 300px;
+    }
+
+    .content-servicos{
+        flex-direction: column-reverse;
+    }
+}
