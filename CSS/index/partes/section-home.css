@@ -114,7 +114,13 @@
     text-align: center;
 }
 
-@media (max-width: 1024px){
+@media (min-width: 1537px){
+    .home, .container-itens{
+        padding: 0 12%;
+    }
+}
+
+@media (max-width: 1356px){
     .content-home{
         flex-wrap: wrap;
         gap: 8rem;
@@ -138,6 +144,10 @@
 }
 
 @media (max-width: 834px){
+    .home{
+        overflow-y: hidden;
+    }
+    
     .content-home{
         gap: 10rem;  
     }

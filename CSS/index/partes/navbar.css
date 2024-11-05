@@ -1,8 +1,9 @@
+
 .navbar{
     position: fixed;
     z-index: 999;
     width: 100vw;
-    padding: .5rem 0 .5rem 0;
+    padding: .5rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,13 +48,19 @@
 }
 
 .menu-mobile .line{
-    width: 1.562rem;
-    height: 0.1875rem;
+    width: 3.5rem;
+    height: 5px;
     background: var(--color-btn);
     border-radius: 15px;
 }
 
+
 @media (max-width: 1024px){
+    .navbar{
+        height: 5rem;
+        justify-content: space-evenly;
+    }
+
     .nav-list{
         display: none;
     }

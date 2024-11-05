@@ -1,7 +1,6 @@
 .about-me{
     padding-top: 3.75rem;
     width: 100vw;
-
 }
 
 .container-about-me{
@@ -69,6 +68,19 @@
     font-size: var(--font-14px);
     color: var(--color-black-font);
     margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1537px){
+    .about-me{
+        padding: 3.75rem 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .deco-line{
+        opacity: 0;
+    }
 }
 
 @media (max-width: 1024px){
