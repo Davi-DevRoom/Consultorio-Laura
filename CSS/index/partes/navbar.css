@@ -67,7 +67,24 @@
 
     .menu-mobile{
         display: flex;
+        cursor: pointer;
     }
 
+    #menu{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        border-radius: .357rem;        
+        top: 99%;
+        left: 0; right: 550px;
+        background: var(--color-main);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    #menu.active{
+        display: flex;
+        flex-direction: column;transform: translateX(100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
 }
 

@@ -1,11 +1,11 @@
 .about-me{
-    padding-top: 3.75rem;
+    margin-top: 3.75rem;
     width: 100vw;
 }
 
 .container-about-me{
     display: flex;
-    gap: 12.5rem;
+    gap: 2.5rem;
     flex-wrap: wrap;
 }
 
@@ -48,7 +48,6 @@
     top: 0rem;
     left: 12.5rem;
     width: 475px;
-    
 }
 /* BG bauhaus*/
 
@@ -156,17 +155,14 @@
 
 @media (max-width: 480px){
     .image-about-me{
-        width: 100vw;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 1rem;
     }
 
     .deco-line{
-        position: relative;
-        width: 100px;
-        left: 5rem;
+        display: none;
     }
 
     .foto-about{
@@ -175,6 +171,7 @@
 
     .deco-circle{
         width: 34px;
+        display: none;
     }
     
     .content-about-me img{

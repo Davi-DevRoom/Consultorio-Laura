@@ -145,7 +145,11 @@
 
 @media (max-width: 834px){
     .home{
-        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .title-home{
+        padding-right: 2rem;
     }
     
     .content-home{
@@ -189,6 +193,10 @@
     }
 
     /* Section sobre servicos (como posso ajudar você) */
+    .container-itens{
+        gap: 2rem;
+    }
+    
     .content-serv{
         width: 150px;
     }

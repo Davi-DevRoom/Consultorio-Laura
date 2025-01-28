@@ -38,13 +38,14 @@
 
 .title-servicos{
     font-family: var(--title-bold);
-    font-size: var(--font-24px);
+    font-size: var(--font-32px);
     color: var(--color-black-font);
 }
 
 .desript-servicos{
     display: flex;
     flex-direction: column;
+    font-size: var(--font-18px);
     gap: 1rem;
 }
 
@@ -62,5 +63,7 @@
 
     .content-servicos{
         flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
     }
 }

@@ -2,29 +2,37 @@
 <html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
+    <!--author-->
+    <meta name="author" content="Davi-DevRoom">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
     <link rel="stylesheet" href="./CSS/index/index.css">
+    <!--title-->
     <title>Consultorio Laura Sodré</title>
 </head>
 <body>
+    <!--======= NAV BAR =======-->
     <nav class="navbar">
         <a href="#" class="logo">Laura Sodré</a>
 
-        <div class="menu-mobile">
+        <div class="menu-mobile" data-menu="menu-button" aria-expanded="false" aria-controls="menu">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
         </div>
 
-        <ul class="nav-list">
+        <ul class="nav-list" data-menu="list" id="menu">
             <li><a href="#about">Sobre mim</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#contato">Contato</a></li>
             <a class="btn-nav" href="#">Agende sua consulta</a>
         </ul>
     </nav>
-
+    <!--======= FIM NAV BAR =======-->
+    
+    <!--======= SECTION HOME =======-->
     <section class="home" id="inicio">
+        <!-- CONTAINER CONTENT HOME -->
         <div class="container-home">
             <img class="bg-geometric" src="IMG/IMG Bauhaus.svg" alt="image-bauhaus">
             <div class="content-home">
@@ -43,6 +51,7 @@
             </div>
         </div>
 
+        <!-- CONTAINER CONTENT HOME SEVICES -->
         <section class="sobre-servicos">
             <div>
                 <h3>
@@ -143,8 +152,11 @@
         </section>
 
     </section>
+    <!--======= FIM SECTION HOME =======-->
 
+    <!--======= SECTION ABOUT-ME =======-->
     <section class="about-me" id="about">
+        <!-- CONTAINER CONTENT ABOUT ME -->
         <div class="container-about-me">
             <div class="image-about-me">
                 <img class="deco-line" src="IMG/deco-line.svg">
@@ -191,14 +203,16 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam enim sed architecto rerum mollitia, alias in dolorem.
                     </p>
                 </div>
-                <a class="btn-nav" href="#">Agende sua consulta</a>
+                <a class="btn-nav btn" href="#">Agende sua consulta</a>
             </div>
         </div>
 
     </section>
+    <!--======= FIM SECTION ABOUT-ME =======-->
 
+    <!--======= SECTION SERVIÇOS =======-->
     <section class="servicos" id="servicos">
-
+        <!-- CONTAINER CONTENT SERVICES -->
         <div class="container-servicos">
             <div class="content-servicos">
                 <div class="box-servicos">
@@ -236,9 +250,13 @@
             </div>
 
         </div>
-    </section>
 
+    </section>
+    <!--======= FIM SECTION SERVIÇOS =======-->
+
+    <!--======= SECTION CONTATO =======-->
     <section class="contato" id="contato">
+        <!-- CONTAINER CONTENT ENDERECO -->
         <div class="container-endereco">
             <div class="content-endereco">
                 <h2 class="heading">
@@ -262,7 +280,7 @@
            <div> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.5131643373174!2d-54.61256292513156!3d-20.473458655460817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e61d5092d279%3A0x41adf0564005b809!2sR.%20Prof.%20Severino%20Ramos%20de%20Queir%C3%B3s%2C%20749%20-%20Vila%20Gloria%2C%20Campo%20Grande%20-%20MS%2C%2079004-250!5e1!3m2!1spt-BR!2sbr!4v1729008005194!5m2!1spt-BR!2sbr" width="950" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </div>
 
-
+        <!-- CONTAINER FAQ -->
         <div class="container-faq">
             <div class="content-faq">
                 <h2 class="heading">
@@ -331,8 +349,21 @@
 
             </div>
         </div>
+
+        <!-- CONTENT FOOTER -->
+        <footer>
+            <div class="separador"></div>
+            <div class="copy">
+                <p>Feito por &copy;<a href="https://github.com/Davi-DevRoom" target="_blank" rel="noopener noreferrer">Davi_DevRoom</a></p>
+            </div>
+        </footer>
     </section>
+    <!--======= FIM SECTION CONTATO =======-->
+
+
+    
 
     <script type="module" src="JS/script.js"></script>
+
 </body>
 </html>
